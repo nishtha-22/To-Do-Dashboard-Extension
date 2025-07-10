@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>New Tab</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background-overlay"></div>
+
+  <div class="dashboard-container">
+    <div class="time-section">
+      <div class="time" id="time">--:--</div>
+      <div class="date" id="date">Loading date...</div>
+    </div>
+
+    <div class="greeting" id="greeting">Loading greeting...</div>
+
+    <div class="weather-section">
+      <div class="weather-info" id="weather-info">Loading weather...</div>
+      <div class="weather-display">
+        <span class="weather-icon" id="weather-icon">⛅</span>
+        <span id="weather-temp">--°</span>
+      </div>
+    </div>
+
+    <div class="todo-container">
+      <div class="todo-header">to-do!</div>
+      <div class="todo-input-container">
+        <input type="text" class="todo-input" id="todoInput" placeholder="Add a new task..." />
+        <button class="add-btn" id="addTodoBtn">Add</button>
+      </div>
+      <div class="todo-list" id="todoList"></div>
+    </div>
+
+    <div class="quote-section">
+      <div class="quote" id="quote">Loading quote...</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

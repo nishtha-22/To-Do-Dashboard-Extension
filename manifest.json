@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Personal Dashboard New Tab",
+  "version": "1.0",
+  "description": "A beautiful, personalized dashboard that replaces your new tab page",
+  "permissions": [
+    "storage"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "icon16.png"
+  }
+}
